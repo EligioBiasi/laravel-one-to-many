@@ -15,7 +15,7 @@ class TypeSeeder extends Seeder
     public function run(Faker $faker): void
     {
         $types=[
-            'News','Sport','Muisc','Art','Movies','Books','Games'
+            'News','Sport','Music','Art','Movies','Books','Games'
         ];
 
         foreach ($types as $type){
