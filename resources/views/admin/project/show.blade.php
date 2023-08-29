@@ -9,7 +9,7 @@
                 <img src="{{asset('storage/' . $project->image)}}" class="card-img-top" alt="{{$project->image}}">
                 <div class="card-body text-center">
                   <h2>
-                    {{$project->title}}
+                    {{$project->title}}--{{$project->type->name}}
                   </h2>
                   <h6 class="card-text">
                     {{$project->slug}}
